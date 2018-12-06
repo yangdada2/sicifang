@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="sicifang" />
+        <module name="tensquare_parent" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="sicifang" target="1.5" />
+      <module name="tensquare_parent" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
