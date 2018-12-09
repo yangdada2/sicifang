@@ -14,91 +14,98 @@ import java.io.Serializable;
 public class Enterprise implements Serializable{
 
 	@Id
-	private VARCHAR id;//ID
+	private String id;//ID
 
 
 	
-	private VARCHAR name;//企业名称
-	private VARCHAR summary;//企业简介
-	private VARCHAR address;//企业地址
-	private VARCHAR labels;//标签列表
-	private VARCHAR coordinate;//坐标
-	private VARCHAR ishot;//是否热门
-	private VARCHAR logo;//LOGO
-	private INT jobcount;//职位数
-	private VARCHAR url;//URL
+	private String name;//企业名称
+	private String summary;//企业简介
+	private String address;//企业地址
+	private String labels;//标签列表
+	private String coordinate;//坐标
+	private String ishot;//是否热门
+	private String logo;//LOGO
+	private int jobcount;//职位数
+	private String url;//URL
 
-	
-	public VARCHAR getId() {		
+
+	public String getId() {
 		return id;
 	}
-	public void setId(VARCHAR id) {
+
+	public void setId(String id) {
 		this.id = id;
 	}
 
-	public VARCHAR getName() {		
+	public String getName() {
 		return name;
 	}
-	public void setName(VARCHAR name) {
+
+	public void setName(String name) {
 		this.name = name;
 	}
 
-	public VARCHAR getSummary() {		
+	public String getSummary() {
 		return summary;
 	}
-	public void setSummary(VARCHAR summary) {
+
+	public void setSummary(String summary) {
 		this.summary = summary;
 	}
 
-	public VARCHAR getAddress() {		
+	public String getAddress() {
 		return address;
 	}
-	public void setAddress(VARCHAR address) {
+
+	public void setAddress(String address) {
 		this.address = address;
 	}
 
-	public VARCHAR getLabels() {		
+	public String getLabels() {
 		return labels;
 	}
-	public void setLabels(VARCHAR labels) {
+
+	public void setLabels(String labels) {
 		this.labels = labels;
 	}
 
-	public VARCHAR getCoordinate() {		
+	public String getCoordinate() {
 		return coordinate;
 	}
-	public void setCoordinate(VARCHAR coordinate) {
+
+	public void setCoordinate(String coordinate) {
 		this.coordinate = coordinate;
 	}
 
-	public VARCHAR getIshot() {		
+	public String getIshot() {
 		return ishot;
 	}
-	public void setIshot(VARCHAR ishot) {
+
+	public void setIshot(String ishot) {
 		this.ishot = ishot;
 	}
 
-	public VARCHAR getLogo() {		
+	public String getLogo() {
 		return logo;
 	}
-	public void setLogo(VARCHAR logo) {
+
+	public void setLogo(String logo) {
 		this.logo = logo;
 	}
 
-	public INT getJobcount() {		
+	public int getJobcount() {
 		return jobcount;
 	}
-	public void setJobcount(INT jobcount) {
+
+	public void setJobcount(int jobcount) {
 		this.jobcount = jobcount;
 	}
 
-	public VARCHAR getUrl() {		
+	public String getUrl() {
 		return url;
 	}
-	public void setUrl(VARCHAR url) {
+
+	public void setUrl(String url) {
 		this.url = url;
 	}
-
-
-	
 }

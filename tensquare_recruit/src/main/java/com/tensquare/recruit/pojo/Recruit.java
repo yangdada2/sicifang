@@ -14,123 +14,134 @@ import java.io.Serializable;
 public class Recruit implements Serializable{
 
 	@Id
-	private VARCHAR id;//ID
+	private String id;//ID
 
 
 	
-	private VARCHAR jobname;//职位名称
-	private VARCHAR salary;//薪资范围
-	private VARCHAR condition;//经验要求
-	private VARCHAR education;//学历要求
-	private VARCHAR type;//任职方式
-	private VARCHAR address;//办公地址
-	private VARCHAR eid;//企业ID
-	private DATETIME createtime;//创建日期
-	private VARCHAR state;//状态
-	private VARCHAR url;//网址
-	private VARCHAR label;//标签
-	private VARCHAR content1;//职位描述
-	private VARCHAR content2;//职位要求
+	private String jobname;//职位名称
+	private String salary;//薪资范围
+	private String condition;//经验要求
+	private String education;//学历要求
+	private String type;//任职方式
+	private String address;//办公地址
+	private String eid;//企业ID
+	private String createtime;//创建日期
+	private String state;//状态
+	private String url;//网址
+	private String label;//标签
+	private String content1;//职位描述
+	private String content2;//职位要求
 
-	
-	public VARCHAR getId() {		
+
+	public String getId() {
 		return id;
 	}
-	public void setId(VARCHAR id) {
+
+	public void setId(String id) {
 		this.id = id;
 	}
 
-	public VARCHAR getJobname() {		
+	public String getJobname() {
 		return jobname;
 	}
-	public void setJobname(VARCHAR jobname) {
+
+	public void setJobname(String jobname) {
 		this.jobname = jobname;
 	}
 
-	public VARCHAR getSalary() {		
+	public String getSalary() {
 		return salary;
 	}
-	public void setSalary(VARCHAR salary) {
+
+	public void setSalary(String salary) {
 		this.salary = salary;
 	}
 
-	public VARCHAR getCondition() {		
+	public String getCondition() {
 		return condition;
 	}
-	public void setCondition(VARCHAR condition) {
+
+	public void setCondition(String condition) {
 		this.condition = condition;
 	}
 
-	public VARCHAR getEducation() {		
+	public String getEducation() {
 		return education;
 	}
-	public void setEducation(VARCHAR education) {
+
+	public void setEducation(String education) {
 		this.education = education;
 	}
 
-	public VARCHAR getType() {		
+	public String getType() {
 		return type;
 	}
-	public void setType(VARCHAR type) {
+
+	public void setType(String type) {
 		this.type = type;
 	}
 
-	public VARCHAR getAddress() {		
+	public String getAddress() {
 		return address;
 	}
-	public void setAddress(VARCHAR address) {
+
+	public void setAddress(String address) {
 		this.address = address;
 	}
 
-	public VARCHAR getEid() {		
+	public String getEid() {
 		return eid;
 	}
-	public void setEid(VARCHAR eid) {
+
+	public void setEid(String eid) {
 		this.eid = eid;
 	}
 
-	public DATETIME getCreatetime() {		
+	public String getCreatetime() {
 		return createtime;
 	}
-	public void setCreatetime(DATETIME createtime) {
+
+	public void setCreatetime(String createtime) {
 		this.createtime = createtime;
 	}
 
-	public VARCHAR getState() {		
+	public String getState() {
 		return state;
 	}
-	public void setState(VARCHAR state) {
+
+	public void setState(String state) {
 		this.state = state;
 	}
 
-	public VARCHAR getUrl() {		
+	public String getUrl() {
 		return url;
 	}
-	public void setUrl(VARCHAR url) {
+
+	public void setUrl(String url) {
 		this.url = url;
 	}
 
-	public VARCHAR getLabel() {		
+	public String getLabel() {
 		return label;
 	}
-	public void setLabel(VARCHAR label) {
+
+	public void setLabel(String label) {
 		this.label = label;
 	}
 
-	public VARCHAR getContent1() {		
+	public String getContent1() {
 		return content1;
 	}
-	public void setContent1(VARCHAR content1) {
+
+	public void setContent1(String content1) {
 		this.content1 = content1;
 	}
 
-	public VARCHAR getContent2() {		
+	public String getContent2() {
 		return content2;
 	}
-	public void setContent2(VARCHAR content2) {
+
+	public void setContent2(String content2) {
 		this.content2 = content2;
 	}
-
-
-	
 }
