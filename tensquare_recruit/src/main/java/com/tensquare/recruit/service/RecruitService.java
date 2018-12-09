@@ -134,4 +134,12 @@ public class RecruitService {
 	public List<Recruit> findTop4ByStateOrderByCreatetimeDesc(String s) {
 		return recruitDao.findTop4ByStateOrderByCreatetimeDesc();
 	}
+
+	/**
+	 * 最新职位列表
+	 * @return
+	 */
+	public List<Recruit> newList() {
+		return recruitDao.findTop12ByStateNotOrderByCreatetimeDesc("0");
+	}
 }

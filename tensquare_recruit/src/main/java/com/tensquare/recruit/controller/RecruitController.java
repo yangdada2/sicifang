@@ -116,4 +116,14 @@ public class RecruitController {
 		List<Recruit> list = recruitService.findTop4ByStateOrderByCreatetimeDesc("2");
 		return new Result(true,StatusCode.OK,"查询成功",list);
 	}
+
+
+	/**
+	 * 最新职位列表
+	 * @return
+	 */
+	@RequestMapping(value = "/search/newList",method = RequestMethod.GET)
+	public Result newList() {
+		return new Result(true,StatusCode.OK,"查询成功",recruitService.newList());
+	}
 }
