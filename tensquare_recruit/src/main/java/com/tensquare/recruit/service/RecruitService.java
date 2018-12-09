@@ -126,4 +126,12 @@ public class RecruitService {
 
 	}
 
+	/**
+	 * 根据状态查询
+	 * @param s
+	 * @return
+	 */
+	public List<Recruit> findTop4ByStateOrderByCreatetimeDesc(String s) {
+		return recruitDao.findTop4ByStateOrderByCreatetimeDesc();
+	}
 }

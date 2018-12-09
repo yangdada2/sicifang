@@ -126,4 +126,12 @@ public class EnterpriseService {
 
 	}
 
+
+	/**
+	 * 查询热门企业李彪
+	 * @return
+	 */
+	public List<Enterprise> hotlist() {
+		return enterpriseDao.findByIshot("1");
+	}
 }

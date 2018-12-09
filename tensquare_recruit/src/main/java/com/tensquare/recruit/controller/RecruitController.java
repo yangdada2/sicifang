@@ -2,6 +2,7 @@ package com.tensquare.recruit.controller;
 import java.util.List;
 import java.util.Map;
 
+import jdk.net.SocketFlow;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -104,5 +105,15 @@ public class RecruitController {
 		recruitService.deleteById(id);
 		return new Result(true,StatusCode.OK,"删除成功");
 	}
-	
+
+
+	/**
+	 * 根据状态查询排名最新职位列表
+	 * @return
+	 */
+	@RequestMapping(value = "/search/recommend",method = RequestMethod.GET)
+	public Result recommend() {
+		List<Recruit> list = recruitService.findTop4ByStateOrderByCreatetimeDesc("2");
+		return new Result(true,StatusCode.OK,"查询成功",list);
+	}
 }
