@@ -1,4 +1,4 @@
-package com.tensquare.Qa.controller;
+package com.tensquare.qa.controller;
 import java.util.List;
 import java.util.Map;
 
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.tensquare.Qa.pojo.Problem;
-import com.tensquare.Qa.service.ProblemService;
+import com.tensquare.qa.pojo.Problem;
+import com.tensquare.qa.service.ProblemService;
 
 import entity.PageResult;
 import entity.Result;

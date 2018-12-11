@@ -1,9 +1,9 @@
-package com.tensquare.Qa.dao;
+package com.tensquare.qa.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 
-import com.tensquare.Qa.pojo.Problem;
+import com.tensquare.qa.pojo.Problem;
 /**
  * 数据访问接口
  * @author Administrator

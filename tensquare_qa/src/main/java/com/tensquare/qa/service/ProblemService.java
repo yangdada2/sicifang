@@ -1,4 +1,4 @@
-package com.tensquare.Qa.service;
+package com.tensquare.qa.service;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -21,8 +21,8 @@ import org.springframework.stereotype.Service;
 
 import util.IdWorker;
 
-import com.tensquare.Qa.dao.ProblemDao;
-import com.tensquare.Qa.pojo.Problem;
+import com.tensquare.qa.dao.ProblemDao;
+import com.tensquare.qa.pojo.Problem;
 
 /**
  * 服务层
